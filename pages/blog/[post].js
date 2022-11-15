@@ -13,7 +13,6 @@ export default function Post(props) {
                 <h1 className='text-center mb-4'>{post.title}</h1>
                 <p>{post.body}</p>
                 <Link href='/blog'>Retour</Link>
-                <span className="text-muted">{`User id : ${post.userId}`}</span>
             </main>
         </>
     );
